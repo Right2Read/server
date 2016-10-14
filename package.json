@@ -1,0 +1,21 @@
+{
+  "name": "Right2ReadServer",
+  "version": "0.0.1",
+  "description": "Server for Right2Read Web App",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Right2Read/server.git"
+  },
+  "author": "Right2Read Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Right2Read/server/issues"
+  },
+  "homepage": "https://github.com/Right2Read/server#readme",
+  "scripts": {
+    "start": "node app/server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
