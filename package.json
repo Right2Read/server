@@ -7,6 +7,10 @@
     "url": "git+https://github.com/Right2Read/server.git"
   },
   "author": "Right2Read Team",
+  "engines": {
+    "node": "4.2.3",
+    "npm": "2.14.13"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Right2Read/server/issues"
@@ -16,6 +20,7 @@
     "start": "node app/server.js"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "log": "^1.4.0"
   }
 }

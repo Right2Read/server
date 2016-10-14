@@ -1,14 +1,16 @@
 'use strict'
 
 const express = require('express')
-const server = express()
+const app = express()
+const log = require('log')
 
-const port = 3000
+app.set('port', process.env.PORT || 3000)
+const port = app.get('port')
 
-server.get('/', function(request, response) {
+app.get('/', function(request, response) {
 	response.send('Hello World')
 })
 
-server.listen(port, function() {
-	console.log(`Right2Read is listening on port ${port}`)
+app.listen(port, function() {
+	log.info(`Right2Read server is listening on port ${port}`)
 })
